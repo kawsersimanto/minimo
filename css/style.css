@@ -165,19 +165,59 @@ header{
 /* newsletter starts here  */
 
 .newsletter {
+  padding: 100px 0;
+  background-color: #f0f0f0;
+  /* border: 1px solid salmon; */
 }
 
 
 .sign-up {
+  text-align: center;
+  /* border: 1px solid salmon; */
+}
+
+.sign-up h1{
+  margin-bottom: 60px;
+  font-size: 30px;
+  font-weight: 400;
+  color: #333333;
 }
 
 .signup-form {
+  margin: 0 auto;
+  width: 365px;
+  position: relative;
 }
 
 .signup-form input{
+  width: 100%;
+  height: 45px;
+  font-family: 'Playfair Display', serif;
+  font-size: 14px;
+  color: #626262;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #626262;
+}
+
+.signup-form input:focus{
+  outline: none;
 }
 
 .signup-form button{
+  position: absolute;
+  top: 15px;
+  right: 0;
+  border: none;
+  background: transparent;
+}
+
+.signup-form button:focus{
+  outline: none;
+}
+
+.signup-form button:hover{
+  cursor: pointer;
 }
 
 .signup-form button img{
