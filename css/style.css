@@ -1,0 +1,186 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #626262;
+}
+
+/* header starts here  */
+
+header{
+  padding: 40px 0;
+  /* border: 2px solid salmon; */
+}
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+  /* border: 2px solid salmon; */
+  overflow: hidden;
+}
+
+.logo {
+  width: 10%;
+  float: left;
+  /* border: 2px solid hotpink; */
+}
+
+.logo img{
+  width: 100%;
+}
+
+.menu {
+  margin-top: 6px;
+  width: 65%;
+  float: right;
+  /* border: 2px solid bisque; */
+}
+
+.menu ul{
+  float: right;
+}
+
+.menu ul li{
+  float: left;
+  list-style: none
+}
+
+.menu ul li:last-child a{
+  margin-right: 0;
+}
+
+.menu ul li a{
+  margin: 0 60px;
+  color: #626262;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-bottom: 1px solid transparent;
+  transition: 0.3s;
+}
+
+.menu ul li a:hover{
+  border-bottom: 1px solid #626262;
+}
+
+/* header ends here  */
+
+/* banner section starts here  */
+
+.banner {
+  padding: 30px 0;
+  /* border: 1px solid salmon; */
+}
+
+.banner-img img{
+  width: 100%;
+}
+
+/* banner section ends here  */
+
+/* gateaway section starts here  */
+
+.gateaway {
+  padding: 20px 0;
+}
+
+.container-2 {
+  margin: 0 auto;
+  width: 70%;
+  /* border: 1px solid salmon; */
+}
+
+.gateaway-content {
+  padding: 30px 0 30px;
+}
+
+.tag {
+  padding-top: 30px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #b4ad9e;
+  text-transform: uppercase;
+}
+
+.title {
+  padding-top: 30px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.description {
+  padding: 40px 0;
+  line-height: 25px;
+}
+
+/* gateaway section ends here  */
+
+/* blog-1 starts here  */
+
+/* .blog1 {
+
+} */
+
+/* row starts here  */
+
+.row {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+/* row ends here  */
+
+/* card left starts here  */
+
+.card-left {
+  width: 45%;
+  float: left;
+}
+
+/* card left ends here  */
+
+
+.card-img img{
+  width: 100%;
+}
+
+/* card right starts here  */
+
+.card-right {
+  width: 45%;
+  float: right;
+}
+
+/* card right ends here  */
+
+
+/* blog-1 ends here  */
+
+/* newsletter starts here  */
+
+.newsletter {
+}
+
+
+.sign-up {
+}
+
+.signup-form {
+}
+
+.signup-form input{
+}
+
+.signup-form button{
+}
+
+.signup-form button img{
+}
+
+/* newsletter ends here  */
