@@ -249,3 +249,62 @@ header{
 }
 
 /* load more ends here  */
+
+/* footer starts here  */
+
+footer{
+  padding: 50px 0;
+  background-color: #f0f0f0;
+
+}
+
+.footer-content {
+  overflow: hidden;
+}
+
+.left-menu {
+  padding: 5px;
+  width: 20%;  
+  float: left;
+  /* border: 1px solid slateblue; */
+}
+
+.left-menu-content{
+  float: left;
+}
+
+.right-menu {
+  padding: 5px;
+  width: 10%;
+  float: right;
+  /* border: 1px solid slateblue; */
+}
+
+.right-menu-content{
+  float: right;
+}
+
+.footer-text{
+  margin-right: 30px;
+  font-size: 16px;
+  color: #000;
+  transition: 0.3s;
+}
+
+.footer-text:hover{
+  border-bottom: 1px solid #000;
+}
+
+.social-media{
+  padding-right: 15px;
+}
+
+.social-media:last-child{
+  padding-right: 0;
+}
+
+.social-media:hover{
+  cursor: pointer;
+}
+
+/* footer ends here  */
