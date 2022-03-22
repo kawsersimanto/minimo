@@ -220,7 +220,32 @@ header{
   cursor: pointer;
 }
 
-.signup-form button img{
+/* newsletter ends here  */
+
+/* load more starts here  */
+
+.load-more {
+  padding-top: 60px;
+  padding-bottom: 180px;
 }
 
-/* newsletter ends here  */
+.button{
+  padding: 25px 40px;
+  background-color: transparent;
+  border: none;
+  border: 1px solid #626262;
+}
+
+.button a{
+  /* padding: 30px 35px; */
+  font-size: 20px;
+  color: #626262;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.button:hover{
+  background-color: #f0f0f0;
+}
+
+/* load more ends here  */
